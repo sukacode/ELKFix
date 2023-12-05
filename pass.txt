@@ -1,1 +1,6 @@
 bin/elasticsearch-setup-passwords auto
+
+
+//command copy
+
+docker cp ./postgresql-42.7.0.jar elkpj-logstash-1:/usr/share/logstash/logstash-core/lib/jars/postgresql-42.7.0.jar

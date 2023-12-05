@@ -1,7 +1,6 @@
-FROM docker.elastic.co/logstash/logstash:8.10.4
+FROM logstash:8.11.1
 USER root
 # install dependency
-
 
 COPY ./postgresql-42.7.0.jar /usr/share/logstash/logstash-core/lib/jars/postgresql-42.7.0.jar
 

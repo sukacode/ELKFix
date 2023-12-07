@@ -236,7 +236,7 @@ services:
       - LOGSTASH_JDBC_DRIVER=org.postgresql.Driver
       - LOGSTASH_JDBC_DRIVER_JAR_LOCATION=/usr/share/logstash/logstash-core/lib/jars/postgresql-42.7.0.jar
       - LOGSTASH_JDBC_USERNAME=seller
-      - LOGSTASH_JDBC_PASSWORD=P@ssw0rd
+      - LOGSTASH_JDBC_PASSWORD=secret
       - NODE_NAME="logstash"
       - xpack.monitoring.enabled=false
       - ELASTIC_USER=elastic
